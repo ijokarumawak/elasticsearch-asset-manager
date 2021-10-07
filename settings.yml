@@ -1,0 +1,15 @@
+elasticsearch:
+  # Cloud example
+  # cloud_id: "xxx:......"
+  # user: elastic
+  # password: secure-password
+
+  # Local deployment example
+  user: elastic
+  password: secure-password
+  hosts:
+    - https://localhost:9200
+  ca_file: /usr/local/etc/kibana/elasticsearch-ca.pem
+
+# Specify directory containing assets
+work_dir: "/var/elasticsearch/assets"
